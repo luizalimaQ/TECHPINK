@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!cabeçalho do navegador>
+<head> 
+    <meta charset="UTF-8"> 
+    <title> TECHPINK </title>
+</head> 
+
+<!corpo do site>
+<body> 
+    <a href="file:///C:/Users/luiza/Site.html"> 
+        <img align="left" width="290" height="120" src="https://i.ibb.co/7Hrf3qJ/Black-White-Modern-Handwritten-Square-Studio-Logo-1-1.png" alt="logo-techpink"> 
+        <a align="right" href="file:///C:/Users/luiza/Site.html"> Home </a> |  
+        <a align="right" href="file:///C:/Users/luiza/Fale%20conosco.html"> Fale conosco </a> | 
+        <a align="right" href="file:///C:/Users/luiza/Carrinho.html"> Carrinho </a> |
+        <a align="right" href="file:///C:/Users/luiza/Cadastro.html"> Cadastro/Login </a> 
+        <hr>
+       
+        <!aba de navegação>       
+    <nav>
+        <a href="#produtos">Produtos</a> | <a href="#ofertas">Ofertas</a>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+     <!banner da page>
+    <iframe width="1554" height="303" src="https://www.youtube.com/embed/fj245xMr-BM" title="GeForce RTX 4090 | Beyond Fast">
+    </iframe>
+     
+    <!seção de navegação>
+     <hr>
+     <section id="produtos">
+        <h2>Produtos</h2>
+    </section>
+
+    <!produtos do nosso site>
+     <table align="left">
+        <tr>
+            <td align="left">
+                <img width="400" height="400" src="https://images9.kabum.com.br/produtos/fotos/542929/console-playstation-5-slim-edicao-digital-branco-2-jogos-1000038914_1713450978_g.jpg" alt="PlayStation 5 Slim">
+                <p align="center"><b>Console PlayStation 5 Slim - Edição Digital</b></p>
+                <p align="center">R$ 3.999,90</p>
+            </td>
+
+            <td align="left">
+                <img width="400" height="400" src="https://images8.kabum.com.br/produtos/fotos/472908/monitor-gamer-lg-ultragear-lg-34-curvo-led-wqhd-ultrawide-160hz-1ms-displayport-e-hdmi-amd-freesync-premium-hdr10-99-srgb-34gp63a-b_1717591886_g.jpg" alt="Monitor LG UltraGear">
+                <p align="center"><b>Monitor Gamer LG UltraGear 34" Curvo</b></p>
+                <p align="center">R$ 2.799,90</p>
+            </td>
+
+            <td align="left">
+                <img width="400" height="350" src="https://images9.kabum.com.br/produtos/fotos/520369/processador-amd-ryzen-7-5700x3d-3-6-ghz-4-1ghz-max-turbo-cache-4mb-8-nucleos-16-threads-am4-video-integrado-100-100001503wof_1708023990_g.jpg" alt="Processador AMD Ryzen 7">
+                <p align="center"><b>Processador AMD Ryzen 7 5700X3D</b></p>
+                <p align="center">R$ 1.799,90</p>
+    
+                <td width="25%" align="top">
+    
+            <! Anúncio>       
+            <aside>
+                <h3>AD</h3>
+                <img width="250" height="200" src="" alt="Anúncio">
+                <p><b>Promoção exclusiva!</b></p>
+                <p>Assista filmes e séries por um preço único.</p>
+                <a href="https://www.disneyplus.com">Saiba mais</a>
+            </aside>
+
+            </td>
+        </tr>          
+    </table>
+
+    <!outros produtos do nosso site>
+
+    <table>
+    <hr>
+        <td>
+            <img width="400" height="350" src="https://images2.kabum.com.br/produtos/fotos/sync_mirakl/520652/Notebook-Gamer-Asus-Tuf-Gaming-F15-Fx507zc4-RTX-3050-Intel-Core-I5-12500h-8GB-RAM-SSD-512GB-Linux-Keepos-Tela-De-15-6-144hz-Mecha-Gray-Hn100_1721828454_g.jpg" alt="Notebook Gamer Asus TUF F15">
+            <p align="center"><b>Notebook Gamer Asus TUF Gaming F15 - FX507ZC4</b></p>
+            <p align="center">R$ 5.999,90</p>
+        </td>
+
+        <td>
+            <img width="400" height="300" src="https://images4.kabum.com.br/produtos/fotos/155444/aspirador-de-po-robo-ir-360-kabum-smart-700-preto_1628768893_g.jpg" alt="Aspirador de Pó Robô IR 360">
+            <p align="center"><b>Aspirador de Pó Robô IR 360 Kabum Smart 700</b></p>
+            <p align="center">R$ 799,90</p>
+        </td>
+
+        <td>
+            <img width="400" height="350" src="https://images4.kabum.com.br/produtos/fotos/520724/placa-de-video-rtx4060-1-click-oc-2x-teclab-lite-galax-nvidia-geforce-_1708435296_g.jpg" alt="Placa de Vídeo RTX 4060">
+            <p align="center"><b>Placa de Vídeo RTX 4060 Galax</b></p>
+            <p align="center">R$ 3.299,90</p>
+        </td>    
+    </table>        
+
+</body>
