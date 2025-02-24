@@ -14,6 +14,9 @@
         <label for="email">Email:</label> 
         <input type="email" required name="email" id="email"><br>
 
+        <label for="produto">ID do Produto:</label>
+        <input type="text" name="produto" id="produto"><br><br
+
         <label for="assunto">Assunto:</label> 
             <select name="assunto" id="assunto">
                 <option value="pagamento">Método de pagamento</option>
@@ -23,10 +26,17 @@
                 <option value="pedido">Status do Pedido</option>
                 <option value="outros">Outros</option>
             </select>
+
 <br>
         <label for="descricao">Nos conte o que aconteceu:</label><br>
         <textarea required name="descricao" id="descricao" rows="5"></textarea><br>
+    
+                
+        <label for="anexo">Anexar arquivo (opcional):</label>
+        <input type="file" name="anexo" id="anexo"><br><br>
 
+  
         <button type="submit">Enviar</button>
     </fieldset>
 </form>
+
