@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <title> AJUDA ONLINE </title>
+</head>
+
+<form action="#" method="POST">
+    <fieldset>
+        <legend> <h3> AJUDA ONLINE </h3></legend>
+
+        <label for="name">Nome:</label> 
+        <input type="text" required name="name" id="name"><br>
+
+        <label for="email">Email:</label> 
+        <input type="email" required name="email" id="email"><br>
+
+        <label for="assunto">Assunto:</label> 
+            <select name="assunto" id="assunto">
+                <option value="pagamento">Método de pagamento</option>
+                <option value="reembolso/Devolução">Reembolso/devolução</option>
+                <option value="troca">Troca de produtos</option>
+                <option value="reclamação">Reclamações</option>
+                <option value="pedido">Status do Pedido</option>
+                <option value="outros">Outros</option>
+            </select>
+<br>
+        <label for="descricao">Nos conte o que aconteceu:</label><br>
+        <textarea required name="descricao" id="descricao" rows="5"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </fieldset>
+</form>
